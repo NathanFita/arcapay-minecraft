@@ -1,0 +1,15 @@
+name: ArcaPay
+version: 1.0.0
+main: com.arcapay.ArcaPayPlugin
+api-version: '1.20'
+author: ArcaPay
+description: Entrega automatica de produtos da ArcaPay
+commands:
+  arcapay:
+    description: Comandos ArcaPay
+    usage: /arcapay <reload|status|poll>
+    permission: arcapay.admin
+permissions:
+  arcapay.admin:
+    description: Acesso aos comandos admin da ArcaPay
+    default: op

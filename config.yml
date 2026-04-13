@@ -1,0 +1,17 @@
+# ArcaPay - Configuracao
+# Token gerado em: Integracoes > Scripts no painel ArcaPay
+token: "SEU_TOKEN_AQUI"
+
+# URL da API (nao altere a menos que use dominio custom)
+api-url: "https://arcapay.org/api/v1/fivem"
+
+# Intervalo de polling em segundos
+poll-interval: 10
+
+# Tipo de identificador que os clientes usam na loja
+# "name" = nome do jogador no Minecraft
+# "uuid" = UUID do jogador
+identifier-type: "name"
+
+# Debug (mostra logs detalhados no console)
+debug: false
