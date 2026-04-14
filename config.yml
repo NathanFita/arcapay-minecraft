@@ -3,7 +3,7 @@
 token: "SEU_TOKEN_AQUI"
 
 # URL da API (nao altere a menos que use dominio custom)
-api-url: "https://arcapay.org/api/v1/fivem"
+api-url: "https://arcapay.org/api/v1"
 
 # Intervalo de polling em segundos
 poll-interval: 10
